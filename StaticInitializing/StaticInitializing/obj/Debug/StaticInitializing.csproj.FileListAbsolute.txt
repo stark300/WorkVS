@@ -1,0 +1,1 @@
+c:\users\sandeep.addala\documents\visual studio 2015\Projects\StaticInitializing\StaticInitializing\bin\Debug\StaticInitializing.exe.config

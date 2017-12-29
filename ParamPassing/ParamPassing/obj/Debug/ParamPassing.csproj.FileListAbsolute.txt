@@ -1,0 +1,6 @@
+c:\users\sandeep.addala\documents\visual studio 2015\Projects\ParamPassing\ParamPassing\bin\Debug\ParamPassing.exe.config
+c:\users\sandeep.addala\documents\visual studio 2015\Projects\ParamPassing\ParamPassing\bin\Debug\ParamPassing.exe
+c:\users\sandeep.addala\documents\visual studio 2015\Projects\ParamPassing\ParamPassing\bin\Debug\ParamPassing.pdb
+c:\users\sandeep.addala\documents\visual studio 2015\Projects\ParamPassing\ParamPassing\obj\Debug\ParamPassing.exe
+c:\users\sandeep.addala\documents\visual studio 2015\Projects\ParamPassing\ParamPassing\obj\Debug\ParamPassing.pdb
+c:\users\sandeep.addala\documents\visual studio 2015\Projects\ParamPassing\ParamPassing\obj\Debug\ParamPassing.csprojResolveAssemblyReference.cache

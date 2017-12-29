@@ -1,0 +1,6 @@
+c:\users\sandeep.addala\documents\visual studio 2015\Projects\Temp\Temp\bin\Debug\Temp.exe.config
+c:\users\sandeep.addala\documents\visual studio 2015\Projects\Temp\Temp\bin\Debug\Temp.exe
+c:\users\sandeep.addala\documents\visual studio 2015\Projects\Temp\Temp\bin\Debug\Temp.pdb
+c:\users\sandeep.addala\documents\visual studio 2015\Projects\Temp\Temp\obj\Debug\Temp.csprojResolveAssemblyReference.cache
+c:\users\sandeep.addala\documents\visual studio 2015\Projects\Temp\Temp\obj\Debug\Temp.exe
+c:\users\sandeep.addala\documents\visual studio 2015\Projects\Temp\Temp\obj\Debug\Temp.pdb
