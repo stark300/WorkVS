@@ -26,13 +26,8 @@ namespace FloatAddition
 
             Addition add = new FloatAddition.Addition();
             string sum = "";
-            if (number1 >= 0 && number2 >= 0 || number1 <= 0 && number2 <= 0)
-            {
-                sum = add.AddBinary(floatString1, floatString2);
-            }
-            else
-            {
-            }
+            sum = add.AddBinary(floatString1, floatString2);
+            
 
             float result = convert.ToFloatNumber(sum);
             Console.WriteLine("final result in float : " + result);

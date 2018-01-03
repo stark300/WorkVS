@@ -30,7 +30,7 @@ namespace FloatAddition
                 finalPointPosition = pointPosition1;
                 while (paddingBits > 0)
                 {
-                    binary1 = '0' + binary2;
+                    binary1 = '0' + binary1;
                     paddingBits--;
                 }
             }
@@ -46,15 +46,15 @@ namespace FloatAddition
             {
                 if(sign1 == '0')
                 {
-                    Subtract(binary1, binary2);
+                    result = Subtract(binary1, binary2);
                 }
                 else
                 {
-                    Subtract(binary2, binary1);
+                    result = Subtract(binary2, binary1);
                 }
             }
-
-            result = result.Insert(result.Length - finalPointPosition, ".");
+            Console.WriteLine("check : "+result);
+            result = result.Insert(result.Length - 23, ".");
             return result;
         }
 

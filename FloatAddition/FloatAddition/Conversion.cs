@@ -54,7 +54,7 @@ namespace FloatAddition
 
         public float ToFloatNumber(string binaryFloat)
         {
-            int sign = 1;
+            int sign = binaryFloat[0] == 0? 1 : -1;
 
             binaryFloat = binaryFloat.Remove(0, 1);
             int prescisionPosition = binaryFloat.IndexOf(".");
