@@ -58,12 +58,40 @@ namespace FloatAddition
         private string Subtract(string binary1, string binary2)
         {
             binary2 = TwosCompliment(binary2);
+            string result = "";
+
+            result = Add(binary1, binary2);
+            int carry = result.Length - binary1.Length;
+            if(carry == 1)
+            {
+                result = result.Remove(0, 1);
+                return '0' + result;
+            }
+            else
+            {
+                result = TwosCompliment(result);
+                return '1' + result;
+            }
         }
 
         private string TwosCompliment(string binary2)
         {
-            StringBuilder binaryString = new StringBuilder(binary2);
-            for(int index = 0; index <= binaryString.Length - 1; index++)
+            StringBuilder binaryStringBuilder = new StringBuilder(binary2);
+            for(int index = 0; index <= binaryStringBuilder.Length - 1; index++)
+            {
+                if(binaryStringBuilder[index] == '0')
+                {
+                    binaryStringBuilder[index] = '1';
+                }
+                else
+                {
+                    binaryStringBuilder[index] = '0';
+                }
+            }
+
+            String binaryString = binaryStringBuilder.ToString();
+            binaryString = Add(binaryString, "1");
+            return binaryString;
         }
 
         private string Add(string binary1, string binary2)
