@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace FloatAddition
 {
     class Program
@@ -15,20 +10,15 @@ namespace FloatAddition
             float number1 = float.Parse(Console.ReadLine());
             Console.WriteLine("Enter 2nd floating number : ");
             float number2 = float.Parse(Console.ReadLine());
-
-            Conversion convert = new Conversion();
-
             //Converting each Floating number to corresponding Binary strings.
+            Conversion convert = new Conversion();
             string floatString1 = convert.ToFloatString(number1);
             Console.WriteLine("Binary representaion of 1st number : " + floatString1);
             string floatString2 = convert.ToFloatString(number2);
             Console.WriteLine("Binary representaion of 2nd number : " + floatString2);
-
+            // Adding the binary strings.
             Addition add = new FloatAddition.Addition();
-            string sum = "";
-            sum = add.AddBinary(floatString1, floatString2);
-            
-
+            string sum = add.AddBinary(floatString1, floatString2);
             float result = convert.ToFloatNumber(sum);
             Console.WriteLine("final result in float : " + result);
             Console.ReadKey();
