@@ -37,9 +37,10 @@ namespace FloatAddition
             binary1 = binary1.Replace(".", "");
             binary2 = binary2.Replace(".", "");
             string result = "";
-            if( operation == "add")
+            if( operation.Equals("add"))
             {
                 result = Add(binary1, binary2);
+                result = sign1 + result;
             }
             else
             {
@@ -52,6 +53,8 @@ namespace FloatAddition
                     Subtract(binary2, binary1);
                 }
             }
+
+            result = result.Insert(result.Length - finalPointPosition, ".");
             return result;
         }
 
