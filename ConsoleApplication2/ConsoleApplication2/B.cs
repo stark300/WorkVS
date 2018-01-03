@@ -4,13 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StaticInitializing
+namespace ConsoleApplication2
 {
-    class Program
+    class B
     {
-        static void Main(string[] args)
+        internal void method(ref Program obj2)
         {
-            Console.WriteLine();
+            obj2 = new Program();
+            obj2.i = 250;
         }
     }
 }

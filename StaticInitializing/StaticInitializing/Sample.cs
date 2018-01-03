@@ -6,11 +6,14 @@ using System.Threading.Tasks;
 
 namespace StaticInitializing
 {
-    class Program
+    class Sample
     {
-        static void Main(string[] args)
+        static int i = getvalue();
+
+        private static int getvalue()
         {
-            Console.WriteLine();
+            Console.WriteLine("returning value for i");
+            return 10;
         }
     }
 }
